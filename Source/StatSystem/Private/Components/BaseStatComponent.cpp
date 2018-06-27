@@ -126,5 +126,7 @@ void UBaseStatComponent::PostEditChangeProperty(FPropertyChangedEvent & Property
 	{
 		AutorestoreModificatorClass = nullptr;
 	}
+
+	return;
 }
 
