@@ -120,13 +120,13 @@ bool UBaseStatComponent::ReplicateSubobjects(UActorChannel * Channel, FOutBunch 
 	return WroteSomething;
 }
 
+//new comment
+
 void UBaseStatComponent::PostEditChangeProperty(FPropertyChangedEvent & PropertyChangedEvent)
 {
 	if (!bAutorestoreEnabled)
 	{
 		AutorestoreModificatorClass = nullptr;
 	}
-
-	return;
 }
 
